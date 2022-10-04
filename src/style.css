@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.badge {
+    @apply bg-yellow-100 twxt-xl uppercase font-bold rounded-2xl p-2 absolute top-0 ml-2 mt-2;
+}
