@@ -623,6 +623,10 @@ video {
   justify-content: center;
 }
 
+.justify-between{
+  justify-content: space-between;
+}
+
 .gap-x-10{
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -689,8 +693,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-end{
-  text-align: end;
+.text-right{
+  text-align: right;
 }
 
 .font-body{
@@ -825,6 +829,10 @@ video {
 
   .md\:flex{
     display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
   }
 
   .md\:grid-cols-3{
