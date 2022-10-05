@@ -602,13 +602,27 @@ video {
        column-gap: 2.5rem;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
 .border-b{
   border-bottom-width: 1px;
+}
+
+.border-red-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
 }
 
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .object-cover{
@@ -707,6 +721,17 @@ video {
   padding: 0.5rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn{
+  cursor: pointer;
+  border-radius: 9999px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
 }
