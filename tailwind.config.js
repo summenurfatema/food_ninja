@@ -9,7 +9,7 @@ module.exports = {
 
       },
       fontFamily: {
-        body: ["Oxygen"]
+        body: ["Nunito"]
       }
     }
   },
