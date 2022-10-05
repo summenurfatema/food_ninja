@@ -599,6 +599,10 @@ video {
   display: grid;
 }
 
+.hidden{
+  display: none;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -825,6 +829,10 @@ video {
 
   .md\:col-span-2{
     grid-column: span 2 / span 2;
+  }
+
+  .md\:block{
+    display: block;
   }
 
   .md\:flex{
